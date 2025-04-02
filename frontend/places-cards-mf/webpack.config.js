@@ -43,7 +43,11 @@ module.exports = {
       name: "places_cards_mf",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Card': './src/components/Card.js',
+        './ImagePopup': './src/components/ImagePopup.js',
+        './AddPlacePopup': './src/components/AddPlacePopup.js'
+      },
       shared: {
         ...deps,
         react: {

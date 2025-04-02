@@ -43,7 +43,9 @@ module.exports = {
       name: "profile_mf",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './EditAvatarPopup': './src/components/EditAvatarPopup.js'
+      },
       shared: {
         ...deps,
         react: {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense, useState, useEffect }  from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
