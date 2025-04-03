@@ -43,7 +43,11 @@ module.exports = {
       name: "auth_mf",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './InfoTooltip': './src/components/InfoTooltip.js',
+        './Login': './src/components/Login.js',
+        './Register': './src/components/Register.js'
+      },
       shared: {
         ...deps,
         react: {

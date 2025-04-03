@@ -44,7 +44,8 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        './EditAvatarPopup': './src/components/EditAvatarPopup.js'
+        './EditAvatarPopup': './src/components/EditAvatarPopup.js',
+        './EditProfilePopup': './src/components/EditProfilePopup.js'
       },
       shared: {
         ...deps,
