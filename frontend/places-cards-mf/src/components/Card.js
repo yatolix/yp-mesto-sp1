@@ -1,4 +1,5 @@
 import React from 'react';
+// TO DO - понять как импортировать контекст из другого микрофронтенда
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 
 function Card({ card, onCardClick, onCardLike, onCardDelete }) {
